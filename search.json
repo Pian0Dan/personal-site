@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "My Data Stories",
+    "section": "",
+    "text": "Bushfire Weather Is Changing: What Local Planners Need to Know\n\n\nFire risk keeps shifting. Is your planning keeping up?\n\n\n\nenvironment\n\npolicy\n\n\n\n\n\n\n\n\n\nOct 10, 2026\n\n\nDaniel Loza\n\n\n\n\n\n\n\n\n\n\n\n\nUnmasking the Inequity: Exploring Indigenous Australian Academic Access and Performance\n\n\nWho are we leaving behind?\n\n\n\neducation\n\nequity\n\n\n\n\n\n\n\n\n\nAug 24, 2026\n\n\nDaniel Loza\n\n\n\n\n\nNo matching items\n\n\nGive me something to write about!"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "I am currently polishing my thesis on sortition frameworks. Check back for this later!\n\nAsk me about my work"
+  },
+  {
+    "objectID": "posts/naplan-indigenous-equity/index.html",
+    "href": "posts/naplan-indigenous-equity/index.html",
+    "title": "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance",
+    "section": "",
+    "text": "Every year, over a million Australian kids sit down to the same NAPLAN tests, and every year the national headlines report more or less the same story: scores are steady, nothing much has changed. But national averages have a way of flattening out the most important parts of a story. Dig into who is actually sitting behind those averages, and a very different picture emerges – one where an entire group of students is measurably and consistently being left behind. This post works through that data step by step: starting from the national numbers everyone sees, then preliminarily examining the data to pull apart who gets tested, who doesn’t, and what the gap actually looks like once you stop averaging it away."
+  },
+  {
+    "objectID": "posts/naplan-indigenous-equity/index.html#the-dangers-of-averages",
+    "href": "posts/naplan-indigenous-equity/index.html#the-dangers-of-averages",
+    "title": "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance",
+    "section": "",
+    "text": "Every year, over a million Australian kids sit down to the same NAPLAN tests, and every year the national headlines report more or less the same story: scores are steady, nothing much has changed. But national averages have a way of flattening out the most important parts of a story. Dig into who is actually sitting behind those averages, and a very different picture emerges – one where an entire group of students is measurably and consistently being left behind. This post works through that data step by step: starting from the national numbers everyone sees, then preliminarily examining the data to pull apart who gets tested, who doesn’t, and what the gap actually looks like once you stop averaging it away."
+  },
+  {
+    "objectID": "posts/naplan-indigenous-equity/index.html#where-did-the-data-come-from",
+    "href": "posts/naplan-indigenous-equity/index.html#where-did-the-data-come-from",
+    "title": "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance",
+    "section": "Where Did the Data Come From?",
+    "text": "Where Did the Data Come From?\nNAPLAN tests Australian enrolled Year 3, 5, 7, and 9 students, though some are exempt (disability, recent arrival) or absent, so participation isn’t 100%. Observations are aggregated statistics (mean, SD, CI, proficiency-band %) by year, domain, state, and subgroup, not individual student records. Variables cover performance, participation, and demographics. “NAPLAN Results” (sheet 3) is the key analysis sheet. Anonymisation relies on aggregation; flags suppress cells with under 30 assessed students (n.p.) or for policy reasons (s.p.) – the latter resulted in Tasmania’s omission, due to low participation."
+  },
+  {
+    "objectID": "posts/naplan-indigenous-equity/index.html#how-do-the-scores-look",
+    "href": "posts/naplan-indigenous-equity/index.html#how-do-the-scores-look",
+    "title": "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance",
+    "section": "How Do the Scores Look?",
+    "text": "How Do the Scores Look?\nFor the sake of matching variables and observing educational effects, this report will only follow the performance of the 2026 Year 5 cohort. Before we dive too deeply, let us first establish a baseline of average performance across NAPLAN tests for these students. For readability, we will abbreviate the names of the domains: Writing (W), Reading (R), Spelling (S), Numeracy (N), and Grammar and Punctuation (GaP).\n\n\n\n\n\n\n\n\nFigure 1: National average NAPLAN score, with confidence interval, by domain (2026, Year 5). Tasmania is omitted, for missing data.\n\n\n\n\n\nFigure 1 shows that when aggregated nationally, there is not particularly significant difference in the average scoring across each of the domains assessed in NAPLAN, with a range of only 15 points between all domains. Grammar and Punctuation holds the highest average score (though also appears to be the most variable), while Writing holds the lowest average score.\n\n\n\n\n\n\n\n\nFigure 2: State average NAPLAN score, with confidence interval, by domain (2026, Year 5), offset horizontally within each domain to reduce overlap, coloured by state/territory. Tasmania is omitted, for missing data.\n\n\n\n\n\nFigure 2 shows the performance of each state across domains. Viewing this on a single plot exposes that Northern Territory trails the rest of the states/territories by a wide margin across every domain. While the remaining states cluster fairly closely together, with rank order shifting slightly between domains. Additionally, NT is shown to have the largest confidence intervals, suggesting a greater range in their scores and the possibility of an even lower “true” average.\n\n\n\n\n\n\n\n\nFigure 3: Each state’s average NAPLAN score minus the AUS average for that domain (2026, Year 5), offset horizontally within each domain to reduce overlap, coloured by state/territory. Tasmania is omitted, for missing data. Error bars combine each state’s confidence interval with the national reference’s confidence interval in quadrature (treating the two as independent), so they reflect uncertainty in both terms of the difference.\n\n\n\n\n\nFigure 3 re-centres Figure 2 on the national average, which makes clearer that NT sits roughly 70-85 points below the national average across every domain – an order of magnitude larger than the spread among the remaining states/territories (all within about ±10 points of the national average). Note that the error bars combine each state’s and AUS’s confidence intervals in quadrature, assuming independence. But the two are not strictly independent since the AUS aggregate is computed by pooling all states, including the one being compared; this likely makes the error bars somewhat conservative (wider than the true uncertainty).\nCumulatively, these figures suggest that there is some disparity in performance between the Northern Territory and other states. Let us dive deeper into what might be driving this…"
+  },
+  {
+    "objectID": "posts/naplan-indigenous-equity/index.html#who-is-doing-the-tests",
+    "href": "posts/naplan-indigenous-equity/index.html#who-is-doing-the-tests",
+    "title": "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance",
+    "section": "Who is Doing the Tests?",
+    "text": "Who is Doing the Tests?\nNow, we know the average scores aren’t consistent across all states. But could there be other factors skewing our picture of performance?\n\n\n\n\n\n\n\n\nFigure 4: Participation rate versus average NAPLAN score across all demographic subgroups (2026, Year 5, national, averaged across domains), coloured by average score. Subgroups (x-axis) are grouped by demographic attribute (facet columns, sorted by participation rate within each), motivating a closer look at Indigeneity and ABS remoteness in the rest of this section.\n\n\n\n\n\nFigure 4 depicts test participation across different demographic subgroups. The lowest-participation subgroups across the whole dataset are concentrated in remoteness, Indigeneity and their intersection. While other demographic splits (gender, language background, parental education/occupation) stay within a, relatively, much narrower, higher-participation range. As such, the remainder of this section drills into Indigeneity by ABS remoteness.\n\n\n\n\n\n\n\n\nFigure 5: Participation rate by Indigeneity and ABS remoteness (2026, Year 5, national), coloured by each subgroup’s average NAPLAN score relative to the national overall average, with a line connecting the Indigenous and Non-Indigenous point at each remoteness level. Remoteness categories are ordered by average participation rate.\n\n\n\n\n\nFigure 5 zooms in on the relationship between Indigeneity, remoteness, participation rates and deviation from national overall average NAPLAN scores. This simultaneously highlights the positive relationship between participation and impact on score (likely suggesting that areas with greater access to testing are also more likely to have greater educational resources), and the negative relationship between remoteness and participation. This also exposes the major gaps in participation rates between Indigenous and Non-Indigenous students, particularly in more remote areas. But, perhaps most importantly, this highlights our most vulnerable and lowest-performing test-takers: the Very remote Indigenous students.\nIt is interesting to note that this gap shrinks with lesser remoteness (though the reason for this will be explained with the next figure).\n\n\n\n\n\n\n\n\nFigure 6: Participation rate (tile colour) and average NAPLAN score relative to the national overall average (numeric label) by Indigeneity, ABS remoteness, and state/territory (2026, Year 5). Grey tiles are either suppressed (n.p., fewer than 30 students assessed) or a remoteness category that doesn’t exist in that state. AUS and Tasmania are omitted (national aggregate and missing data, respectively).\n\n\n\n\n\nAnd with Figure 6, we arrive at a clearer picture of who is performing how, and where. As expected from Figure 5, students who are Indigenous and Very remote consistently exhibit the weakest performance in their cohort. Adding this back to the state differences explored back in Figure 3, we see that Very remote, Indigenous students in NT are disproportionately disadvantaged, among the least likely to complete NAPLAN, and likely to receive the lowest score on average.\nAnswering the shrinking participation gap question raised by Figure 5, NT only contains observations that are “outer regional” or more remote, while also containing the lowest participation rates among Indigenous students. This would be massively down-weighting the estimate. Simultaneously, NT’s absence from the more urban subgroups may be part of why these areas report lesser difference in participation, irrespective of Indigeneity.\nIt should also be noted that, while being suppressed from displaying score performance – remote Victoria (irrespective of Indigeneity) and inner-regional ACT (specifically non-Indigenous) report perfect participation rates. This stands out from the surrounding data and may be worth investigating for entry validity."
+  },
+  {
+    "objectID": "posts/naplan-indigenous-equity/index.html#are-we-all-learning-as-we-grow",
+    "href": "posts/naplan-indigenous-equity/index.html#are-we-all-learning-as-we-grow",
+    "title": "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance",
+    "section": "Are We All Learning as We Grow?",
+    "text": "Are We All Learning as We Grow?\nNow let’s take a look at how our cohort has grown since we last saw them sit NAPLAN in Year 3, back in 2024.\n\n\n\n\n\n\n\n\nFigure 7: Average NAPLAN score gain by domain (national), for the single cohort of students who were in Year 3 in 2024 and Year 5 in 2026. Domains are ordered by growth (score gain), ascending.\n\n\n\n\n\nFigure 7 shows the aggregate national average growth in student scores between Year 3 and Year 5. From this, we learn that Writing not only is the lowest-scoring domain (as seen in Figure 1) but also the lowest-growth (~66 points). The other four domains exhibit comparably clustered growth between the two test attempts (~83-90 points).\nBut does this hold up everywhere and for all types of students?\n\n\n\n\n\n\n\n\nFigure 8: Average NAPLAN score gain by domain and state/territory, for the single cohort of students who were in Year 3 in 2024 and Year 5 in 2026. Domains are ordered by growth (score gain), ascending, as in Figure 7. AUS is omitted (shown separately in Figure 7) and Tasmania is omitted for missing data.\n\n\n\n\n\nFigure 8 shows that Writing remains the weakest growth area across all states, maintaining the clustered shape for the other four domains. Notably, however, NT trumps other states for growth in Reading and Spelling scores. Though, given the scores remain relatively low post-growth, this is realistically just weak convergence to mean performance.\nShifting our focus back to subgroups – how do Indigenous students fare at the state level?\n\n\n\n\n\n\n\n\nFigure 9: Gap in average NAPLAN score growth between Indigenous and Non-Indigenous students (Indigenous minus Non-Indigenous), by domain and state/territory, for the single cohort of students who were in Year 3 in 2024 and Year 5 in 2026. The Cohort gain sheet does not report Indigeneity broken down by state, so gain is reconstructed here directly from the main NAPLAN Results sheet (Year 5 2026 score minus Year 3 2024 score, per domain/state/Indigeneity). Domains are ordered by growth (score gain), ascending, as in Figure 7. AUS is omitted (shown separately) and Tasmania is omitted for missing data. Positive values mean Indigenous students gained more than Non-Indigenous students in that domain/state.\n\n\n\n\n\nBreaking things down by Indigeneity and state, Figure 9 shows that Reading and Spelling growth consistently favours Indigenous students across almost every state, while Writing and Numeracy consistently favour Non-Indigenous students. This is the same domain pattern seen nationally in Figure 7. NT stands out as the state where this gap is smallest and most inconsistent, sitting closest to zero in most domains, while ACT shows the largest single gap (Reading, +26 points).\nIn a vacuum (like for NT in Figure 8) this would paint an optimistic picture for Indigenous students. However, even with these growths, the earlier figures show that the cohort’s overall performance continues to lag well behind the national average.\nSo what does this all mean?"
+  },
+  {
+    "objectID": "posts/naplan-indigenous-equity/index.html#unmasking-the-inequity",
+    "href": "posts/naplan-indigenous-equity/index.html#unmasking-the-inequity",
+    "title": "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance",
+    "section": "Unmasking the Inequity",
+    "text": "Unmasking the Inequity\nWell, let’s revisit the plot from which this journey began, but now disaggregating scores by Indigeneity.\n\n\n\n\n\n\n\n\nFigure 10: Average NAPLAN score by domain (2026, Year 5, national), for Indigenous and Non-Indigenous students, alongside the overall national average as a baseline.\n\n\n\n\n\nAs feared, Figure 10 reveals that the national average scores are actually masking Indigenous Australian performance; they only really paint a picture of the non-Indigenous students. This leaves a very vulnerable minority who is poorly represented in educational efforts and whose success is quite possibly being let down by the system.\nAnd this is all, so far, just looking at aggregates and averages. How does this hold up at the performance band distribution level?\n\n\n\n\n\n\n\n\nFigure 11: Distribution of students across NAPLAN performance bands (2026, Year 5, national), by domain and Indigeneity.\n\n\n\n\n\nFigure 11 confirms the gap seen in Figure 10 is not just a shift in the average, but a genuine redistribution across the whole performance spectrum. In every domain, Indigenous students are far more concentrated in “Needs additional support” (roughly 3-4 times the share of Non-Indigenous students) and far less represented in “Exceeding” (often less than a fifth the share). This is most pronounced in Grammar and Punctuation, where “Needs additional support” accounts for over 40% of Indigenous students, compared to under 10% of Non-Indigenous students.\nFiltering this down even further, to our most vulnerable remote and Indigenous students, the story becomes even starker.\n\n\n\n\n\n\n\n\nFigure 12: Distribution of students across NAPLAN performance bands (2026, Year 5, national), by domain and Indigeneity, for Remote and Very remote areas combined (weighted by enrolled students).\n\n\n\n\n\nFigure 12 shows the disparity amplifies sharply in remote areas: across Remote and Very remote areas combined, 60-74% of Indigenous students fall into “Needs additional support” depending on domain, compared to roughly 10-19% of Non-Indigenous students in the same areas, and “Exceeding” is almost entirely absent for Indigenous students (under 1% in every domain).\nThe performance band’s name is fitting: these kids need additional support. We cannot keep ignoring this disparity. We cannot continue to leave our Indigenous youth behind.\n\n\n\n\n\n\nTipTL;DR\n\n\n\nNationally, NAPLAN scores look fairly consistent across domains and states – until the Northern Territory and Indigenous students are considered on their own. NT trails every other state by a wide margin, driven largely by its Very remote Indigenous population, who also have the lowest participation rates in the country. Disaggregating by Indigeneity shows the national average has been masking this gap all along: Indigenous students are several times more likely to fall into “Needs additional support” performance bands when compared to their non-Indigenous counterparts, and are almost entirely absent from “Exceeding,” with the disparity most severe in remote areas. Growth between Year 3 and Year 5 doesn’t close this gap either. The data points to one conclusion: Indigenous students, especially in remote communities, are being systemically left behind by the current system. More investigation and focus is needed to address this systemic issue and ensure equitable access and outcomes for all students."
+  },
+  {
+    "objectID": "posts/naplan-indigenous-equity/index.html#resources",
+    "href": "posts/naplan-indigenous-equity/index.html#resources",
+    "title": "Unmasking the Inequity: An Exploration of Indigenous Australian Academic Access and Performance",
+    "section": "Resources",
+    "text": "Resources\nThe materials used for this report are:\nData\nAustralian Curriculum, Assessment and Reporting Authority (ACARA) (2026). NAPLAN National Results. National Assessment Program (NAP) data portal. Accessed via https://www.acara.edu.au/reporting/national-report-on-schooling-in-australia/naplan-national-results.\nR packages\nWickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to the tidyverse.” Journal of Open Source Software, 4(43), 1686. doi:10.21105/joss.01686.\nWickham H (2023). conflicted: An Alternative Conflict Resolution Strategy. R package version 1.2.0. doi:10.32614/CRAN.package.conflicted.\nWickham H, Bryan J (2026). readxl: Read Excel Files. R package version 1.5.0. doi:10.32614/CRAN.package.readxl.\nWickham H (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\nMüller K (2025). here: A Simpler Way to Find Your Files. R package version 1.0.2. doi:10.32614/CRAN.package.here."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Here’s a snapshot of my professional journey. You can also download my full resume as a PDF."
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\n\n\n\nJul 2026 - Present\n\n\nAssistant Tutor at Monash University\nI aid in content delivery and personalised learning support for Business and Economic Statistics at Monash University.\n\n\n\n\nNov 2025 - May 2026\n\n\nParticipant Recruitment Coordinator at MosaicLab Co\nI planned, designed and managed recruitment processes for community engagement and deliberative panel facilitation.\n\n\n\n\nJul 2025 - Oct 2025\n\n\nConsulting Project at Governance Institute of Australia\nI engaged in contract work involving:\n\nLiaising with the executives at GIA\nCollecting, inspecting and analysing membership metrics\nIdentifying key trends across financial and membership data\nWorking in a team to build strategies to enhance member acquisition, retention, experience and engagement\n\n\n\n\n\nFeb 2022 - Present\n\n\nCustomer Service Representative at PoolShower.com.au\nI liaise with customers to ensure they get the service they need, and their questions answered. I also support the order placing process and provide after-sale service as needed. Additionally, I have created promotional videos, campaigns and advertising material, including copywriting. I have also engaged in logistics work, communicating with couriers and handling order dispatch.\n\n\n\n\nAug 2019 - Present\n\n\nPiano Teacher at DanThePianoMan Music School\nI privately teach and tutor students to play piano, using a hybrid of Suzuki and AMEB methods—building self-confidence and musical literacy."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\n\n\n\nExpected Finish 2026\n\n\nBachelor of Commerce (Honours) at Monash University\n\nSpecialising in Business Analytics\nHigh Distinction Average\nEBS Honours Memorial Scholarship\n\n\n\n\n\nFinished 2025\n\n\nBachelor of Business at Monash University\n\nDouble-majoring in Economics and Business Strategy, and Analytics and Business Statistics\nDean’s Award (Top 2%) - HD Average\nTop Results:\n\n95 - Digital Marketing (Unit Prize) 🏆\n93 - Microeconomics\n92 - Economics of International Trade\n92 - Marketing Theory and Practice\n92 - Foundations of Finance\n91 - The Wealth and Poverty of Nations\n90 - Managerial Economics\n\n\n\n\n\n\nFinished 2022 (practical), 2023 (theoretical)\n\n\nAMusA (Classical Piano) at AMEB\n\nPass on first attempt\nGrade 5 Music Theory (Honours)\n\n\n\n\n\nFinished 2022\n\n\nVCE Baccalaureate at Mordialloc College\n\nMiddle School Vice Captain, then College Captain\nActive member of Student Voice Committee, Student Representative Council, Student Council, and School Council\nAlto Saxophone for school Concert and Stage Bands\nMember of Respect Group, focused on inclusion\nEditor of student magazine “Student Snapshot”\nSelect Entry Accelerated Learning (SEAL) Student\nSubject study awards for top performance each year\n\n\n\n\n\nFinished 2021\n\n\nCertificate III in Music Industry (Performance) at COSAMP\nDeveloped performance, communication, teamwork skills, and confidence by performing to audiences in a music ensemble."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\n\nThoroughness Communication Research Skills Self-Motivation Teamwork Technical Aptitude Resilience Creative Thinking"
+  },
+  {
+    "objectID": "resume.html#volunteering",
+    "href": "resume.html#volunteering",
+    "title": "Resume",
+    "section": "Volunteering",
+    "text": "Volunteering\n\n\n\nNov 2023 - Present\n\n\nYouth Voice Working Group Member at Kingston Youth Services\nEngaging with other young people in collaboration with city council to ensure active youth representation in my community.\n\n\n\n\nApr 2023 - Oct 2024\n\n\nCommunity Representative at Kingston City Council\nActively participated in a deliberative panel, discussing local issues for positive community outcomes. Delivered on 5 key metrics to advise incumbent council on future planning."
+  },
+  {
+    "objectID": "resume.html#licences-certifications",
+    "href": "resume.html#licences-certifications",
+    "title": "Resume",
+    "section": "Licences & Certifications",
+    "text": "Licences & Certifications\n\n\n\nIssued Sep 2025\n\n\nApplying Python for Data Analysis at Coursera\nDeveloped data cleaning, analysis and visualisation skills with Pandas in Python.\n\n\n\n\nIssued Sep 2025\n\n\nData Visualisation using dplyr and ggplot2 in R at Coursera\nRefined data manipulation, analysis and visualisation skills with dplyr and ggplot2 packages in R.\n\n\n\n\nIssued Sep 2025\n\n\nHow to Set Up a Facebook Ads Campaign at Coursera\nLearned industry standard processes for efficiently and effectively setting up campaigns with Facebook ads and tracking their efficacy across key metrics.\n\n\n\n\nIssued Nov 2023\n\n\nVIC Volunteer WWC Check at VIC Government\n\n\n\n\nIssued Dec 2024\n\n\nVIC Employee WWC Check at VIC Government\n\n\n\n\nIssued Nov 2022\n\n\nLearners Licence at VicRoads\n\n\n\n\nDownload Resume Get in touch"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always happy to chat about data, community projects, or new opportunities — feel free to reach out using any of the details below!\n\n\n\n\nEmail\ndaniel376707@gmail.com"
+  },
+  {
+    "objectID": "posts/bushfire-weather-risk/index.html",
+    "href": "posts/bushfire-weather-risk/index.html",
+    "title": "Bushfire Weather Is Changing: What Local Planners Need to Know",
+    "section": "",
+    "text": "The 2019–20 “Black Summer” fires burned tens of millions of hectares across New South Wales, Victoria and surrounding regions, destroyed thousands of homes, and placed enormous strain on emergency services and local budgets. For anyone responsible for bushfire and emergency-management planning, the natural next question is: was this a freak event, or is this closer to what fire seasons will increasingly look like?\nThat question matters for planning decisions that are made years in advance — how much is budgeted for emergency services, where new development is approved, how infrastructure is hardened, and how often fire-danger plans are revisited. If the weather conditions that drove Black Summer are becoming more common, then historical bushfire records are a less reliable guide to future risk, and plans built on those records may already be out of date."
+  },
+  {
+    "objectID": "posts/bushfire-weather-risk/index.html#why-once-in-a-generation-fire-seasons-are-becoming-a-planning-problem",
+    "href": "posts/bushfire-weather-risk/index.html#why-once-in-a-generation-fire-seasons-are-becoming-a-planning-problem",
+    "title": "Bushfire Weather Is Changing: What Local Planners Need to Know",
+    "section": "",
+    "text": "The 2019–20 “Black Summer” fires burned tens of millions of hectares across New South Wales, Victoria and surrounding regions, destroyed thousands of homes, and placed enormous strain on emergency services and local budgets. For anyone responsible for bushfire and emergency-management planning, the natural next question is: was this a freak event, or is this closer to what fire seasons will increasingly look like?\nThat question matters for planning decisions that are made years in advance — how much is budgeted for emergency services, where new development is approved, how infrastructure is hardened, and how often fire-danger plans are revisited. If the weather conditions that drove Black Summer are becoming more common, then historical bushfire records are a less reliable guide to future risk, and plans built on those records may already be out of date."
+  },
+  {
+    "objectID": "posts/bushfire-weather-risk/index.html#what-the-evidence-shows",
+    "href": "posts/bushfire-weather-risk/index.html#what-the-evidence-shows",
+    "title": "Bushfire Weather Is Changing: What Local Planners Need to Know",
+    "section": "What the evidence shows",
+    "text": "What the evidence shows\n\nThe headline finding\nFigure 1 summarises how much more likely two of the key ingredients behind Black Summer have become. Extreme heat comparable to that experienced during Black Summer is now at least twice as likely because of long-term warming. Fire weather overall — a combined measure of temperature, rainfall, humidity and wind — is at least 30% more likely than it was in 1900, and this is a conservative, lower-bound estimate. If warming reaches 2°C above 1900 levels, fire weather this severe is projected to become at least four times as likely.\n\n\n\n\n\n\n\n\nFigure 1: How much more likely Black Summer-level conditions are today, and under further warming, compared with 1900.\n\n\n\n\n\nNot every driver moved in the same direction, though — the overall picture is mixed. Drought is the exception. The study found no detectable climate-change signal in extreme meteorological drought — whether measured as low annual rainfall or an unusually dry fire season. Instead, two separate natural ocean and atmospheric cycles — unrelated to long-term warming — each accounted for roughly a third of the rainfall deficit behind the 2019 dry spell.\nFigure 1 shows how much the odds have shifted for heat and fire weather; Table 1 brings all three findings together, including drought, and translates each into what it means for planning.\n\n\n\n\nTable 1: Attribution findings for the weather conditions behind Black Summer, and their planning implications.\n\n\n\n\n\n\n\n\n\n\n\nWeather driver\nChange since 1900\nWhat this means for planning\n\n\n\n\nExtreme heat\nAt least 2x as likely\nTreat extreme-heat days as a recurring risk, not a rare exception.\n\n\nSevere fire weather\nAt least 30% more likely (likely an underestimate)\nHistorical counts of severe fire-danger days probably understate future risk.\n\n\nMeteorological drought\nNo climate-change signal detected\nYear-to-year rainfall swings from natural cycles remain a major, less predictable wildcard.\n\n\n\n\n\n\n\n\n\n\nWhere this finding comes from\nThis comes from an international climate attribution study published in the peer-reviewed journal Natural Hazards and Earth System Sciences (Oldenborgh et al. 2021). The study combined decades of weather observations with simulations from 11 global climate models to compare the chances of Black Summer-level conditions occurring in today’s climate versus the climate of 1900, before most human-caused warming had occurred. It focused on the September–February fire season in the part of southeastern Australia most affected in 2019–20. The “conservative, lower-bound” caveat on the 30% figure reflects a known limitation: the climate models used still understate the warming trend actually observed, so the true increase in fire-weather risk may be larger."
+  },
+  {
+    "objectID": "posts/bushfire-weather-risk/index.html#what-this-means-for-your-planning-decisions",
+    "href": "posts/bushfire-weather-risk/index.html#what-this-means-for-your-planning-decisions",
+    "title": "Bushfire Weather Is Changing: What Local Planners Need to Know",
+    "section": "What this means for your planning decisions",
+    "text": "What this means for your planning decisions\nThese findings speak directly to the question this post opened with. Black Summer-level fire weather is not a one-off: the conditions that produced it are measurably more likely today than a century ago. The 30% figure in Table 1 is a floor, not a ceiling, so historical frequency estimates for fire-danger days likely understate the risk ahead. Resourcing, zoning and infrastructure-hardening decisions built on those older estimates may need revisiting sooner than in the past.\nThe picture isn’t uniform, though. Drought showed no attributable warming trend — it’s driven by natural climate variability instead. That year-to-year unpredictability isn’t going away, and plans need to accommodate it rather than reading every bad fire season as proof of an accelerating trend.\nOne limit is worth flagging: this study covers the weather conditions that support severe fires, not what causes any individual fire. Ignition, fuel loads, land management and community exposure all remain within local and state control. Weather sets the stage; planning choices on the ground still shape much of the outcome.\n\n\n\n\n\n\nTipTL;DR\n\n\n\nThe best available attribution science (Oldenborgh et al. 2021) finds that Black Summer-level extreme heat is now at least twice as likely as in 1900, and severe fire weather overall is at least 30% more likely — a figure that could rise to at least four times as likely if warming reaches 2°C. Drought is the exception: the study found no evidence that climate change played a role, pointing instead to natural ocean and atmospheric cycles. For planners, the practical implication is to treat past fire-season statistics as a conservative starting point rather than a reliable ceiling, while keeping fuel, land-use and exposure management as the levers most directly under local control."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Daniel!",
+    "section": "",
+    "text": "I create connections and data-driven solutions.\n\nView My Blog"
+  },
+  {
+    "objectID": "index.html#featured-story",
+    "href": "index.html#featured-story",
+    "title": "Hi, I’m Daniel!",
+    "section": "Featured Story",
+    "text": "Featured Story\n\n\nBushfire Weather Is Changing: What Local Planners Need to Know\nA look at what the best available climate-attribution science says about Black Summer-level fire weather — written for local and state policymakers.\nRead the post →"
+  },
+  {
+    "objectID": "index.html#contact-me-to-find-out-more",
+    "href": "index.html#contact-me-to-find-out-more",
+    "title": "Hi, I’m Daniel!",
+    "section": "Contact me to find out more!",
+    "text": "Contact me to find out more!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Daniel",
+    "section": "",
+    "text": "That's me!"
+  },
+  {
+    "objectID": "about.html#bio",
+    "href": "about.html#bio",
+    "title": "About Daniel",
+    "section": "Bio",
+    "text": "Bio\nHi, I’m Daniel — an engagement specialist, analyst, community advocate and musician who believes that all problems are best solved together. I’m heavily involved in my local community and love learning and collaborating with others to achieve the best outcomes in any environment. Outside of work, I’m passionate about music, film, interactive media and urban development.\nThrough experience consulting with not-for-profits and working with small businesses, I’ve built strong technical and communication skills, making me a keen problem-solver, a supportive leader and an eager team player. I’m looking to apply my analytical skills where they count, and make a difference in social welfare, equity and inclusion."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About Daniel",
+    "section": "Skills",
+    "text": "Skills\n\n\n\n\nTechnical\nProficient in R and Python.\n\n\n\n\n\nData & Analytics\nSkilled with ggplot, Pandas and Excel.\n\n\n\n\n\nEconomics\nStrong grasp of economic concepts and trends.\n\n\n\n\n\nProfessional\nDetail-oriented and thorough in every project.\n\n\n\n\n\nCommunication\nClear, confident communication with clients and executives alike.\n\n\n\n\n\nLeadership\nDriven to lead teams toward shared goals.\n\n\n\n\nLearn more"
+  }
+]

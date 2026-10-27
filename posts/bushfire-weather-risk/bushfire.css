@@ -1,0 +1,40 @@
+/* Scoped to this post only: a subtle bushfire/ember motif (flame-coloured
+   gradient accents), fitting the subject matter. */
+
+.quarto-title-block {
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, #7a1d00 0%, #d1450f 40%, #f2a30f 75%, #ffd666 100%) 1;
+}
+
+h2 {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 90px;
+  height: 4px;
+  background: linear-gradient(to right, #7a1d00, #d1450f, #f2a30f, #ffd666);
+}
+
+figcaption.quarto-float-caption-bottom,
+figcaption.quarto-float-caption-top {
+  border-left: 3px solid #d1450f;
+  padding-left: 0.6rem;
+}
+
+/* Warm the TL;DR callout to match the ember palette instead of the
+   site-wide accent tint */
+div.callout-tip.callout-style-simple {
+  border-left: 6px solid #d1450f;
+  background: linear-gradient(135deg, #fff2e6, #ffe6cc);
+  box-shadow: 0 2px 10px rgba(209, 69, 15, 0.2);
+}
+
+div.callout-tip .callout-icon::before {
+  background-color: #d1450f;
+}

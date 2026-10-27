@@ -1,0 +1,29 @@
+/* Scoped to this post only. A subtle nod to the Aboriginal and Torres
+   Strait Islander flag colour palettes (black, red/ochre, yellow) given
+   the subject matter -- colour accents only, no flag imagery itself. */
+
+.quarto-title-block {
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, #000000 0 33%, #CC2027 33% 66%, #FFC72C 66% 100%) 1;
+}
+
+h2 {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  height: 4px;
+  background: linear-gradient(to right, #000000 0 33%, #CC2027 33% 66%, #FFC72C 66% 100%);
+}
+
+figcaption.quarto-float-caption-bottom,
+figcaption.quarto-float-caption-top {
+  border-left: 3px solid #CC2027;
+  padding-left: 0.6rem;
+}

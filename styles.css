@@ -1,0 +1,548 @@
+/* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&display=swap');
+
+:root {
+  --accent: #dc5e21;
+  --accent-dark: #ac491a;
+  --accent-tint: #fae7de;
+  --text: #212121;
+  --bg: #fdfaf5;
+}
+
+/* Quarto forces the content container to be at least viewport-height,
+   which creates a large gap above the footer on short pages. Letting
+   it size to its own content doesn't affect pages already taller than
+   the viewport. */
+.quarto-container {
+  min-height: auto !important;
+}
+
+/* Quarto also reserves a minimum 60px row between the end of the content
+   and the footer; shrink that reserved gap. */
+.page-rows-contents {
+  grid-template-rows: [content-top] minmax(max-content, 1fr) [content-bottom] minmax(16px, max-content) [page-bottom];
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Navbar and title banner */
+.navbar-dark, .quarto-title-banner {
+  background-color: var(--accent);
+}
+
+/* Heading text sits directly on the accent-colored banner, so keep it light for contrast */
+.quarto-title-banner h1,
+.quarto-title-banner .title,
+.quarto-title-banner .subtitle,
+.quarto-title-banner .quarto-title-meta {
+  color: #ffffff;
+}
+
+/* Category tags in the title banner otherwise blend into the accent background */
+.quarto-title-banner .quarto-category {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Homepage hero */
+.hero-section {
+  background-image: linear-gradient(rgba(31, 31, 31, 0.55), rgba(31, 31, 31, 0.55)), url("images/header.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 7rem 2rem;
+  /* The fixed navbar reserves 64px via body.nav-fixed; pull the image up
+     underneath it so it reaches the very top of the page. */
+  margin-top: -64px;
+  padding-top: calc(7rem + 64px);
+  /* Full-bleed: break out of the content column regardless of its width.
+     (box-shadow bleed, used for .contact-section below, only works for flat
+     colors — this section needs the actual box to be full width since it
+     carries a background image.) */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  z-index: 0;
+}
+
+.hero-section h1 {
+  color: #ffffff;
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section .tagline {
+  font-family: "Fraunces", serif;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn-cta {
+  display: inline-block;
+  background-color: #ffffff;
+  color: var(--accent) !important;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding: 0.65rem 1.9rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-cta:hover {
+  background-color: var(--accent-tint);
+}
+
+/* Featured work cards */
+.work-samples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0 3rem;
+}
+
+.work-card {
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem;
+  max-width: 420px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.work-card h3 {
+  margin-top: 0;
+}
+
+/* Contact page intro */
+.contact-intro {
+  max-width: 600px;
+  margin: 2rem auto 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* Contact page info cards */
+.contact-info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2.5rem auto;
+  max-width: 900px;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+  min-width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.contact-card i {
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.contact-card strong {
+  display: block;
+  font-family: "Fraunces", serif;
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin: 0.75rem 0 0.5rem;
+}
+
+.contact-card a {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Contact section. Full-bleed background via a huge box-shadow rather than
+   Quarto's grid column classes (e.g. .column-screen): those depend on
+   exactly how Quarto nests this element's ancestors in its grid, which
+   varies by page template (plain pages, listing pages with a margin
+   sidebar, and the About page's "jolla" about-template wrapper all differ),
+   so the same class doesn't reliably reach the true screen edge everywhere.
+   box-shadow instead paints past this element's own box regardless of that
+   nesting; clip-path trims the shadow back so it doesn't force a horizontal
+   scrollbar. Because this element's actual box stays put (centered, at
+   normal content width), text-align: center below centers the button in
+   that symmetric box, which reads as centered on the page. */
+.contact-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #f3ebe4;
+  box-shadow: 0 0 0 100vmax #f3ebe4;
+  clip-path: inset(0 -100vmax);
+}
+
+.btn-cta-outline {
+  display: inline-block;
+  border: 2px solid var(--accent);
+  color: var(--accent) !important;
+  font-weight: 700;
+  padding: 0.5rem 1.6rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.btn-cta-outline:hover {
+  background-color: var(--accent);
+  color: #ffffff !important;
+}
+
+/* Tie callout cards (e.g. TL;DR) to the site accent color, and make them pop */
+div.callout-tip.callout-style-simple {
+  border-left: 6px solid var(--accent);
+  background-color: var(--accent-tint);
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(220, 94, 33, 0.2);
+  padding: 0.25rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+div.callout-tip.callout-style-simple > .callout-header {
+  background-color: transparent;
+  font-size: 1.15rem;
+}
+
+div.callout-tip .callout-icon::before {
+  background-color: var(--accent);
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+  font-family: "Fraunces", serif;
+}
+
+/* Links */
+a {
+  color: var(--accent);
+}
+
+/* Inline links inside headings (e.g. homepage "Contact me") need their own
+   affordance since headings are already accent-colored */
+.contact-link {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-dark);
+}
+
+.contact-link:hover {
+  color: var(--accent-dark) !important;
+}
+
+a:hover {
+  color: var(--accent-dark);
+}
+
+/* Buttons (e.g. about-page links) */
+.quarto-about-jolla .about-link, .btn {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+}
+
+.quarto-about-jolla .about-link:hover, .btn:hover {
+  background-color: var(--accent) !important;
+  color: #ffffff !important;
+}
+
+/* Resume intro line, sized to match the larger lede text on the source site */
+.resume-lede {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* "That's me!" callout pointing at the About-page photo.
+   Bootstrap's default about-jolla rule sets margin-top: 10%, which
+   was meant to add breathing room on a page with no title banner;
+   now that this page has a real title-block-banner, that doubles up
+   into an oversized gap, so override it down. */
+.quarto-about-jolla {
+  position: relative;
+  margin-top: 1.5rem !important;
+}
+
+.photo-callout {
+  position: absolute;
+  top: -25px;
+  left: calc(50% + 130px);
+  width: 300px;
+  text-align: center;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.photo-callout-text {
+  display: inline-block;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent-dark);
+  background-color: #ffffff;
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transform: rotate(10deg);
+  white-space: nowrap;
+}
+
+.photo-callout-arrow {
+  display: block;
+  margin: -2px auto 0;
+}
+
+@media (max-width: 650px) {
+  .photo-callout {
+    display: none;
+  }
+}
+
+/* On portrait phones there's room to keep the callout, just shrunk and
+   pulled in from the wide desktop offset so it doesn't overflow the
+   viewport. Scaling the whole block (text + arrow) as one unit, rather
+   than resizing the text and SVG separately, keeps the arrow lined up
+   with the bubble above it at any size. transform-origin is pinned to
+   the corner nearest the arrowhead (not the box's default top-left) so
+   shrinking the box moves the tip itself only slightly, keeping it
+   just outside the circular photo (240px/15em diameter, centered in
+   the page) instead of drifting into it.
+   Note: tuned against the photo's fixed 15em size, but worth a visual
+   check in a real portrait viewport and a small nudge if needed. */
+@media (max-width: 500px) and (orientation: portrait) {
+  .photo-callout {
+    display: block;
+    top: -48px;
+    left: calc(50% + 70px);
+    width: 300px;
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
+}
+
+/* Give About-page sections clear visual separation */
+.quarto-about-jolla h2 {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.quarto-about-jolla h2:first-of-type {
+  margin-top: 1.5rem;
+}
+
+/* About-page skills summary grid, mirroring the source site's skills section */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.skill-card {
+  flex: 1 1 220px;
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.skill-card h3 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.skill-icon {
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+/* Resume skills, shown as pill badges to mirror the source site's skill tags */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 2rem;
+}
+
+/* Pandoc wraps the pill spans in a <p>; let that paragraph pass its
+   children through to the flex container above instead of being a child itself */
+.skills-list p {
+  display: contents;
+}
+
+.skill-pill {
+  display: inline-block;
+  flex: 1 1 160px;
+  text-align: center;
+  background-color: var(--accent-tint);
+  color: var(--accent-dark);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+}
+
+/* Zig-zag colour variation between pills */
+.skill-pill-dark {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+/* On mobile portrait, the 160px flex-basis only fits 2 pills per row,
+   turning the 2x4 zig-zag into a 4x2 grid where dark/light pills stack
+   in the same column instead of alternating. Force a single column so
+   the zig-zag runs vertically instead. */
+@media (max-width: 500px) and (orientation: portrait) {
+  /* At this width the pills naturally wrap 2-per-row (4 rows x 2
+     columns) instead of the desktop 2 rows x 4 columns. The dark/light
+     classes in the markup are ordered for that wider grid, so on a
+     2-column grid they land as two solid-colour rows followed by two
+     rows of the opposite colour, rather than a checkerboard. Recolour
+     by grid position instead: for 2 columns, a checkerboard repeats
+     every 4 items as light, dark, dark, light. */
+  .skills-list p .skill-pill:nth-child(4n+1),
+  .skills-list p .skill-pill:nth-child(4n) {
+    background-color: var(--accent-tint);
+    color: var(--accent-dark);
+  }
+
+  .skills-list p .skill-pill:nth-child(4n+2),
+  .skills-list p .skill-pill:nth-child(4n+3) {
+    background-color: var(--accent);
+    color: #ffffff;
+  }
+
+  /* "Technical Aptitude" is the longest label; at this width it wraps
+     onto two lines unless shrunk slightly. */
+  .skill-pill-long {
+    font-size: 0.8rem;
+  }
+}
+
+/* Resume timeline entries: date column beside title + description,
+   mirroring the source site's timeline layout */
+.timeline-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.timeline-date {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  min-width: 140px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text);
+  padding-top: 0.2rem;
+}
+
+/* Experience, Education and Volunteering use a shared fixed date-column
+   width so every title in those sections starts at the same horizontal
+   position; longer dates (e.g. Education) are allowed to wrap to fit */
+.aligned-timeline .timeline-date {
+  flex: 0 0 180px;
+  white-space: normal;
+}
+
+.timeline-content {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.timeline-content p:last-child,
+.timeline-content ul:last-child {
+  margin-bottom: 0;
+}
+
+/* Match the footer to the page background instead of Cosmo's default grey */
+.nav-footer {
+  background-color: var(--bg);
+}
+
+/* Site-wide footer links, styled to match .btn-cta-outline */
+.nav-footer-center .footer-items .nav-link {
+  display: inline-block;
+  border: 2px solid var(--accent);
+  color: var(--accent) !important;
+  font-weight: 700;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0.3rem;
+}
+
+.nav-footer-center .footer-items .nav-link:hover {
+  background-color: var(--accent);
+  color: #ffffff !important;
+}
+
+.nav-footer-center .footer-items .nav-link i {
+  margin-right: 0.4rem;
+  font-family: "bootstrap-icons" !important;
+}
+
+/* Something in the footer-item rendering path resets the icon font's
+   ::before content; force the specific glyphs back in explicitly */
+.nav-footer-center .footer-items .nav-link i.bi-github::before {
+  content: "\f3ed" !important;
+  font-family: "bootstrap-icons" !important;
+}
+
+.nav-footer-center .footer-items .nav-link i.bi-linkedin::before {
+  content: "\f472" !important;
+  font-family: "bootstrap-icons" !important;
+}
+
+.nav-footer-center .footer-items .nav-link i.bi-briefcase-fill::before {
+  content: "\f1cb" !important;
+  font-family: "bootstrap-icons" !important;
+}
+
+/* Listing page post cards */
+.quarto-grid-item {
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+  background-color: var(--accent);
+  color: #ffffff;
+}
