@@ -11,7 +11,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "I am currently polishing my thesis on sortition frameworks. Check back for this later!\n\nAsk me about my work"
+    "text": "Sortition panels improve deliberation and policymaking, but little attention has been paid to whether they preserve a community’s intersectional structure rather than just its marginal proportions. Using a simulated sortition pipeline with quota-constrained selection via the LexiMin algorithm, this thesis finds that panels systematically distort two-variable relationships present in the underlying sample — motivating Intersection Inspector, a diagnostic tool for assessing panel representativeness before deliberation begins.\nRead the thesis →"
   },
   {
     "objectID": "posts/naplan-indigenous-equity/index.html",
@@ -187,5 +187,19 @@
     "title": "About Daniel",
     "section": "Skills",
     "text": "Skills\n\n\n\n\nTechnical\nProficient in R and Python.\n\n\n\n\n\nData & Analytics\nSkilled with ggplot, Pandas and Excel.\n\n\n\n\n\nEconomics\nStrong grasp of economic concepts and trends.\n\n\n\n\n\nProfessional\nDetail-oriented and thorough in every project.\n\n\n\n\n\nCommunication\nClear, confident communication with clients and executives alike.\n\n\n\n\n\nLeadership\nDriven to lead teams toward shared goals.\n\n\n\n\nLearn more"
+  },
+  {
+    "objectID": "publications.html#literature",
+    "href": "publications.html#literature",
+    "title": "Publications",
+    "section": "",
+    "text": "Sortition panels improve deliberation and policymaking, but little attention has been paid to whether they preserve a community’s intersectional structure rather than just its marginal proportions. Using a simulated sortition pipeline with quota-constrained selection via the LexiMin algorithm, this thesis finds that panels systematically distort two-variable relationships present in the underlying sample — motivating Intersection Inspector, a diagnostic tool for assessing panel representativeness before deliberation begins.\nRead the thesis →"
+  },
+  {
+    "objectID": "publications.html#packages",
+    "href": "publications.html#packages",
+    "title": "Publications",
+    "section": "Packages",
+    "text": "Packages\nCooking up some public transport data packages and apps; check back for these later!\n\nAsk me about my work"
   }
 ]
