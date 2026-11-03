@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "Daniel's Data Domain"
+  favicon: images/fav.png
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Resume"
+        href: resume.qmd
+      - text: "About"
+        href: about.qmd
+      - contact.qmd
+      - icon: github
+        href: https://github.com/Pian0Dan
+  page-footer:
+    center:
+      - text: '<i class="bi bi-github"></i> GitHub'
+        href: https://github.com/Pian0Dan
+        aria-label: GitHub
+      - text: '<i class="bi bi-linkedin"></i> LinkedIn'
+        href: https://www.linkedin.com/in/sing-us-a-song/
+        aria-label: LinkedIn
+      - text: '<i class="bi bi-briefcase-fill"></i> SEEK'
+        href: https://au.seek.com/profiles/daniel-loza-s3vzyw8gfr
+        aria-label: SEEK
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
